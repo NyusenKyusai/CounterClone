@@ -15,6 +15,7 @@ public class CounterApplication {
 
         System.out.println("Welcome to the Tally Counter application");
         System.out.println("1 = Increment, 2 = Decrement, 3 = Reset, 0 = Exit");
+        
         do {
             System.out.println("Number of sheep = " + sheep);
             System.out.println("Number of goats = " + goats);
@@ -32,6 +33,8 @@ public class CounterApplication {
                 System.out.println("Error: Valid choices are 0, 1 or 2");
             }
         } while (choice != 0);
+        
+        
         System.out.println("Goodbye");
     }
 }
