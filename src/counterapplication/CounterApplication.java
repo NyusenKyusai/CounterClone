@@ -28,13 +28,21 @@ public class CounterApplication {
             
             choice = stdin.nextInt();
             if (choice == 1) {
+                
                 sheep.increment();
+                
                 goats.increment();
+                
             } else if (choice == 2) {
+                
                 goats.decrement();
+                
             } else if (choice == 3) {
+                
                 sheep.reset();
+                
                 goats.reset();
+                
             } else if (choice != 0) {
                 System.out.println("Error: Valid choices are 0, 1 or 2");
             }
